@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="abc.JPG" alt="abc.JPG">
+    <img src="https://wallpapershome.com/images/pages/pic_h/241.jpg" alt="abc.JPG" style="width: 128px; height: 128px;">
+
+
+    <!-- image as link -->
+
+<h3>Image as link</h3>
+<p>The image is a link. You can click on it</p>
+
+<a href="https://www.youtube.com/watch?v=zJfl1VV58Rk"><img src="abc.JPG" alt="abc.JPG" style="width: 42px; height: 42px; border: 0;"></a>
+<p>Add border = 0  to prevent  IE9 (and earlier) from displaying a border around the image</p>
+
+<!-- Image float -->
+
+<p><img src="abc.JPG " alt="abc.JPG" style="float: left;">Float to left</p>
+<p><img src="abc.JPG " alt="abc.JPG" style="float: right: ;">Float to right</p>
+
+
+<!-- Image maps -->
+
+<h4>Image maps</h4>
+<p>click on the computer , the phone or the cup of coffe to go to new page and read more about the topic</p>
+
+<img src="def.jpg" alt="abc.JPG" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" href="https://auth0.com/blog/authors/kim-maida/" alt="computer">
+    <area shape="rect" coords="290,172,333,250" href="https://leetcode.com/problems/n-queens/" alt="phone">
+    <area shape="circle" coords="337,300,44" href="https://scrimba.com/p/pV5eHk/c9EqQSD" alt="Cup of coffee">
+</map>
+
+
+
+
+<!-- background image -->
+<h2>Background Image</h2>
+
+<div style="background-image: url('def.jpg');">
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+you can specify background image <br>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+<!-- Chapter Summary
+Use the HTML <map> element to define an image-map
+Use the HTML <area> element to define the clickable areas in the image-map
+Use the HTML <img>'s element usemap attribute to point to an image-map -->
