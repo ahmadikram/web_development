@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;    
+        }
+        </style>
+</head>
+<body>
+
+    <!-- cell than span row -->
+
+
+    <caption>Cell than span row </caption>
+    <table style="width=100%">
+        <tr>
+            <th>name</th>
+            <th colspan="2">telephone</th>
+        </tr>
+
+        <tr>
+            <td>Ikram Ab Ghani</td>
+            <td>0108091413</td>
+            <td>0199061785</td>
+        </tr>
+
+
+
+    </table>
+
+
+    <!-- cell that span many row -->
+    <caption>Cell span many row</caption>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Ikram Ab Ghani</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>0199061785</td>
+            
+        </tr>
+        <tr>
+            <td>0108091413</td>
+        </tr>
+    </table>
+</body>
+</html>
